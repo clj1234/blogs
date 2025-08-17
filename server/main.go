@@ -34,7 +34,7 @@ func getGormConfig(gormConfig *config.GormConfig) *gorm.Config {
 
 func initialize() {
 	// 读取yaml配置
-	file, err := os.ReadFile("server/config.yaml")
+	file, err := os.ReadFile("./config.yaml")
 	if err != nil {
 		panic(err)
 	}
