@@ -1,0 +1,13 @@
+mysql:
+  username: root
+  password: root
+  path: localhost
+  port: 3306
+  dbName: go_learn
+  config: parseTime=true
+gorm:
+  dryRun: false
+system:
+  addr: localhost
+  port: 8080
+  signedString: "lkasjdklmansmkdhasidhqsnmkldnkajscklajsodjakdasdqwdasdssadascxzvdfvwdf"

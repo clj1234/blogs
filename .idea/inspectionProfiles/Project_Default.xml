@@ -1,0 +1,13 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="GoDfaErrorMayBeNotNil" enabled="true" level="WARNING" enabled_by_default="true">
+      <functions>
+        <function importPath="github.com/golang-jwt/jwt/v5" name="ParseWithClaims" />
+      </functions>
+      <methods>
+        <method importPath="gorm.io/gorm" receiver="ChainInterface" name="First" />
+      </methods>
+    </inspection_tool>
+  </profile>
+</component>
